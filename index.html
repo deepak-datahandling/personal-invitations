@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f9e5e7">
+  <title>Engagement Invitation</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; background: #f9e5e7; }
+    body { display: flex; justify-content: center; }
+    .invitation { position: relative; width: min(100vw, 683px); line-height: 0; }
+    .invitation img { display: block; width: 100%; height: auto; }
+    .map-hotspot {
+      position: absolute;
+      left: 29.14%;
+      top: 75.95%;
+      width: 9.37%;
+      height: 8.25%;
+      display: block;
+      border-radius: 8px;
+      background: transparent;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .map-hotspot:focus-visible {
+      outline: 3px solid #8b173d;
+      outline-offset: 2px;
+    }
+    .temple-name {
+      position: absolute;
+      left: 23.8%;
+      top: 84.15%;
+      width: 22%;
+      color: #74102f;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(8px, 1.25vw, 10px);
+      font-weight: 600;
+      line-height: 1.08;
+      text-align: center;
+      letter-spacing: 0;
+      white-space: normal;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <main class="invitation" aria-label="Engagement invitation">
+    <img src="invitation.webp"
+         alt="Engagement invitation for Bindu C S and Yathish R N"
+         width="2732" height="4096">
+    <a class="map-hotspot"
+       href="https://maps.app.goo.gl/dDKz6KutL2CAuq7F6?g_st=aw"
+       target="_blank" rel="noopener noreferrer"
+       aria-label="Open Sant Sevalal Nagalingeshwara Temple in Google Maps"
+       title="Open location in Google Maps"></a>
+    <div class="temple-name">
+      Sant Sevalal<br>
+      Nagalingeshwara<br>
+      Temple
+    </div>
+  </main>
+</body>
+</html>
